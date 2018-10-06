@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Toill og fjas instillinger</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="options.css">
+    <script src="options.js"></script>
+</head>
+<body>
+
+<h1>Toill og fjas instillinger</h1>
+<fieldset>
+    <legend>Standard:</legend>
+    <p>
+        <label><i class="fa fa-grin-stars"></i> Fjern tv, kjendis og rampelys</label>
+        <input type="checkbox" value="checked" id="kjendis">
+    </p>
+    <p>
+        <label><i class="fa fa-female"></i> Fjern mote</label>
+        <input type="checkbox" value="checked" id="mote">
+    </p>
+    <p>
+        <label><i class="fa fa-futbol"></i> Fjern sport</label>
+        <input type="checkbox" value="unchecked" id="sport">
+    </p>
+    <p>
+        <label><i class="fa fa-plus-circle"></i> Fjern pluss artikler</label>
+        <input type="checkbox" value="unchecked" id="pluss">
+    </p>
+</fieldset>
+<br>
+<fieldset>
+        <legend>Egendefinert:</legend>
+    <p>
+        <label><i class="fa fa-cog"></i> Fjern alle saker som inneholder ordene:</label><br>  
+        <br>
+        <textarea rows="4" cols="50" id="userWords">Farmen, Skal vi danse</textarea><br>
+        Eksempel: <i>Farmen, Skal vi danse</i> (bruk komma-separert liste)
+    </p>
+</fieldset>   
+<p>
+    <!--<button id="restore">Bruk standard <i class="fa fa-undo"></i></button>-->
+    <button id="save">Lagre <i class="fa fa-save"></i></button>
+    <div id="status"></div>
+</p>
+</body>
+</html>
