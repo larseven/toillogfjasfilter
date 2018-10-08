@@ -11,7 +11,7 @@ var contentKeyWords = {
     pluss: ['pluss', 'amagasinet'],
     kjendis: ['rampely', 'kjendis', 'side2.no'],
     mote: ['mote', 'y.mag'],
-    sport: ['sport, fotball, gullkampen, trening']
+    sport: ['sport', 'fotball', 'gullkampen', 'trening']
 }
 
 function fadeOutAndRemove(el, speed) {
